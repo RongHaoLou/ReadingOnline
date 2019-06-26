@@ -1,0 +1,1104 @@
+head,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/*一些必备的*/
+h1,h2,h3,h4,h5,h6,ul,li,strong,p,em,a,span,b{
+    padding:0;
+    margin:0;
+    font-size: 16px;
+    font-weight: normal;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
+/*整个大框*/
+.box{
+    width: 100%;
+    height: 2615.2px;
+    margin: auto;
+
+}
+/*整个大框*/
+/*整个大框中的小框*/
+.book{
+    width: 1100px;
+    height: 2444.8px;
+    margin: auto;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    background: #FFFFFA;
+
+}
+/*整个大框中的小框*/
+/*左框*/
+
+.book-left{
+    width: 794.4px;
+    height: 100%;
+    float: left;
+
+}
+
+/*左框*/
+/*右框*/
+.book-right{
+    width: 290.6px;
+    height:580px;
+    float: right;
+    border: 1px solid #dedbd5;
+}
+.right-title{
+    float: left;
+    width: 253px;
+    height: 28.4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.right-txt{
+    font-size: 18px;
+    margin-top:-2px;
+}
+.hotSort{
+    float: left;
+    width: 253px;
+    height:360px ;
+
+}
+.hotBook{
+    float: left;
+    width: 253px;
+    height:36px ;
+    margin-left: 20px;
+}
+.hotBook2{
+    float: left;
+    width: 253px;
+    height:36px ;
+    padding-top: 15px;
+    margin-left: 20px;
+    border-top: 1px solid #f5f2eb;
+}
+.hot-num{
+    width: 15px;
+    height:14px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+    border: 1px solid #f77a36;
+    background-color: #f77a36;
+    font-size: 12px;
+    text-align: center;
+}
+.hot-name{
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #526652;
+
+}
+/*右框*/
+/*书籍简介*/
+.book-info{
+    width: 760px;
+    height: 328px;
+    margin-bottom: 15px;
+}
+/*书籍简介*/
+/*简介左侧*/
+.info-left{
+    width: 200px;
+    height: 305.2px;
+    float: left;
+
+}
+
+.left-top{
+    display: block;
+    width: 100%;
+    height: 269.2px;
+    position: relative;
+
+}
+.left-top img{
+    width: 100%;
+    height: 100%;
+}
+.left-top:hover {
+
+
+}
+.left-top .img{
+    width: 52px;
+    height: 40px;
+    position:absolute ;
+    right: 0;
+    top: 0;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -70px -583px;
+}
+.left-top .img2{
+    position: absolute;
+    top: -24px;
+    right: -8px;
+    width: 47px;
+    height: 26px;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -147px -782px;
+}
+.left-btommon{
+    width: 100%;
+    height: 16.2px;
+
+    margin-top: 15px;
+
+}
+.logo1{
+    float: left;
+    width: 40px;
+    height: 100%;
+}
+.icon-favo{
+    width: 13px;
+    height: 13px;
+    margin: auto;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -64px -813px;
+
+
+}
+.icon-favo2{
+    width: 13px;
+    height: 13px;
+    margin: auto;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -186px -867px;
+
+}
+.icon-favo3{
+    width: 13px;
+    height: 13px;
+    margin: auto;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -120px -813px;
+
+}
+.split{
+    float: left;
+    width: 1px;
+    height: 11px;
+    margin: 0 15px 0 15px;
+    background: #d9d9d7;
+}
+/*简介左侧*/
+/*简介右侧*/
+
+.info-right{
+    width: 529.6px;
+    height: 327.6px;
+    float: right;
+
+}
+/*简介题目*/
+.book-title{
+    width: 100%;
+    height: 28px;
+
+}
+.book-title h1{
+    font-size: 24px;
+    line-height: 28px;
+}
+.book-title h1 .ebook-tips{
+    font-size: 12px;
+    line-height: 16px;
+    height: 15px;
+    border: 1px solid #ccc;
+    color: #999;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+/*简介分数*/
+.book-info-score{
+    width: 100%;
+    height:16.2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.star{
+    float: left;
+    width: 95px;
+    height: 13.6px;
+}
+.star-on{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background-image: url("../img/book-img/pkg_ydcommon_yui_z_a168977.png");
+    background-position: 0px -41px;
+}
+.star-half{
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background-image: url("../img/book-img/pkg_ydcommon_yui_z_a168977.png");
+    background-position: 0px -62px;
+}
+.value{
+    float: left;
+    width: 20px;
+    height: 16px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #666;
+}
+.book-info-score a{
+    float: left;
+    width:80px;
+    height: 16px;
+    font-size: 13px;
+    color: #666;
+    margin-left: 10px;
+}
+.split1{
+    float: left;
+    width: 1px;
+    height: 12px;
+    margin: 3px 5px 0 5px;
+    background: #d9d9d7;
+}
+.count{
+    float: left;
+    width:100px;
+    height: 16px;
+    font-size: 13px;
+    color: #666;
+    margin-left: 5px;
+}
+/*简介作者*/
+.book-info-org{
+    width: 100%;
+    height: 35.4px;
+    margin-bottom: 25px;
+}
+.author{
+    width: 100%;
+    height: 15px;
+    float: left;
+    margin-bottom: 5px;
+}
+.author-1{
+    width: 10px;
+    height: 100%;
+    font-size: 13px;
+    color: #999;
+    margin-right: 5px;
+}
+.author-2{
+    width: 50px;
+    height: 100%;
+    font-size: 13px;
+
+    color: #526652;
+}
+.author-2:hover {
+    color: #57ba59;
+}
+
+.publiCation{
+    width: 100%;
+    height: 15px;
+    float: left;
+    margin-bottom: 5px;
+}
+.publiCation-1{
+    width: 10px;
+    height: 100%;
+    font-size: 13px;
+    color: #999;
+    margin-right: 5px;
+}
+.publiCation-2{
+    width: 50px;
+    height: 100%;
+    font-size: 13px;
+    color: #526652;
+}
+.publiCation-2:hover{
+    color: #57ba59;
+}
+/*简介价格展示*/
+.book-info-price{
+    width: 100%;
+    height: 193px;
+    background-color: #fff6e5;
+
+}
+/*简介价格展示内容*/
+.promotion-status{
+    float: left;
+    width: 489.6px;
+    height: 30px;
+    padding: 0 20px;
+    background-color: #fff0d3;
+}
+.kouhao{
+    margin-right: 20px;
+    font-size: 14px;
+    color: #f77a36;
+
+}
+.kouhao2{
+    font-size: 12px;
+}
+
+.price-info{
+    float: left;
+    width:489.6px;
+    height: 23px;
+    padding: 17px 20px 0;
+}
+.price-info1{
+    width: 104.03px;
+    height: 13.6px;
+    margin-right: 15px;
+}
+.price-youhui{
+    float: left;
+    width: 519.6px;
+    height: 38px;
+    margin-top: 10px;
+    position: relative;
+
+}
+.youhui-left{
+    float: left;
+    width: 369.18px;
+    height: 38px;
+    margin-left: 20px;
+    background-color: #fff0d3;
+
+}
+.youhui-left1{
+    float: left;
+    width: 66px;
+    height: 20px;
+    background-color: #f27836;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 9px;
+    margin-left: 5px;
+
+}
+.youhui-left2{
+    float: left;
+    width: 15px;
+    height: 100%;
+    font-size: 24px;
+    color: #f27836;
+    margin: 0 10px 0;
+}
+.youhui-left3{
+    float: left;
+    width: 160px;
+    height: 20px;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 9px;
+}
+.youhui-left4{
+    float: left;
+    width: 80px;
+    height: 20px;
+    font-size: 14px;
+    margin-top: 9px;
+    margin-left: -5px;
+    color: #f27836;
+}
+.youhui-right{
+    float: left;
+    width: 48px;
+    height: 38px;
+    margin-left: 30px;
+    background-color: #fff0d3;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -146px -415px;/*//58*/
+}
+.youhui-right:hover{
+     background-position: -146px -458px;/*//58*/
+ }
+
+.erweima{
+    position: absolute;
+    bottom: -175px;
+    right: -50px;
+    width: 150px;
+    height: 170px;
+    background-color: #fff0d3;
+    display: none;
+}
+.youhui-right:hover .erweima{
+    display:block;
+}
+.erweima-txt{
+    width: 150px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+}
+.erweima-img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    position: relative;
+}
+.img-1{
+    width: 150px;
+    height: 150px;
+}
+.img-2{
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    left:70px;
+   top: 70px;
+
+}
+.daoliu-icon{
+    float: left;
+    width:489.6px;
+    height: 44px;
+    padding: 15px 20px;
+}
+.buy{
+    display: block;
+    width: 122px;
+    height: 44px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    line-height: 42px;
+}
+.read{
+    display: block;
+    width: 122px;
+    height: 44px;
+    float: left;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    background-color: #57ba59;
+}
+.shop{
+    width: 79.34px;
+    height: 15.2px;
+    float: right;
+    margin-top:29px;
+    color: #f97a28;
+}
+.shop:hover .shop1{
+    background-position: -179px -520px;
+}
+.shop1{
+    float: left;
+    width: 15px;
+    height: 13px;
+    background-image: url(../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png);
+    background-position: -179px -502px;/*520*/
+}
+.shop2{
+    float: left;
+    width: 60px;
+    height: 13.6px;
+    font-size: 12px;
+}
+/*简介右侧*/
+/*简介底下的引导*/
+.yindao{
+    width: 760px;
+    height: 71px;
+    float: left;
+    border-top: 1px solid #e6e6e1;
+    border-bottom: 1px solid #e6e6e1;
+    margin-bottom: 45px;
+}
+.yindao1{
+    width: 240.8px;
+    height: 71px;
+    float: left;
+    margin-left: 10px;
+}
+.yindao-left{
+    width: 49px;
+    height: 49px;
+    float: left;
+    margin-top: 11px;
+    background: url("../img/book-img/3.png")  no-repeat 0 0;
+}
+.yindao-left2{
+    width: 49px;
+    height: 49px;
+    float: left;
+    margin-top: 11px;
+    background: url("../img/book-img/3.png")  no-repeat -80px 0;
+}
+.yindao-left3{
+    width: 49px;
+    height: 49px;
+    float: left;
+    margin-top: 11px;
+    background: url("../img/book-img/3.png")  no-repeat -155px 0;
+}
+.yindao-right{
+    width: 154px;
+    height: 38px;
+    float: left;
+    margin-left: 10px;
+}
+.roll-title{
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #333;
+}
+.roll-txt{
+    width: 170px;
+    font-size: 12px;
+    color: #999;
+}
+/*简介底下的引导*/
+/*导航*/
+.jianjie-daohang{
+
+
+    float: left;
+    width: 760px;
+    height: 36px;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+.current{
+    border-bottom: 2px solid #58BD5A;;
+}
+.current:hover{
+    color: #58BD5A;
+}
+.current1:hover {
+    color: #58BD5A;
+    border-bottom: 2px solid #58BD5A;
+}
+.current2:hover{
+    color: #58BD5A;
+    border-bottom: 2px solid #58BD5A;
+}
+.daohang1{
+    float: left;
+    width: 95px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+}
+.book-jianjie{
+    float: left;
+    padding-top: 15px;
+    width: 760px;
+    height: 183px;
+    margin-bottom: 20px;
+}
+.book-jianjie-title{
+    float: left;
+    width: 760px;
+    height: 24px;
+}
+.title-icon{
+    float: left;
+    height: 15px;
+    width: 4px;
+    background: #58BD5A;
+    border-radius: 2px;
+}
+.title-txt{
+    margin-left: 10px;
+    font-size: 13px;
+}
+.book-jianjie-content{
+    width: 760px;
+    height: 120px;
+    float: left;
+}
+.book-jianjie-content p{
+
+    line-height: 24px;
+    font-size: 14px;
+    color: #4c4c4c;
+    text-indent: 30px;
+
+}
+.base{
+    float: left;
+    width: 760px;
+    height: 148px;
+}
+.base-info{
+    float: left;
+    width: 760px;
+    height: 22px;
+    margin-bottom: 15px;
+}
+.base-content{
+    float: left;
+    width: 760px;
+    height: 111px;
+}
+.base-content li{
+    height: 36px;
+    color: #4c4c4c;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid #f5f2eb;
+
+}
+.l1{
+    border-top: 1px solid #f5f2eb;
+}
+.sp1{
+    display: block;
+    width: 70px;
+    height: 26px;
+    float: left;
+    margin-top: 10px;
+    color: #999;
+}
+.sp2{
+    width: 15px;
+    height: 100%;
+    margin-left: 25px;
+    color: #999;
+}
+.sp3{
+    display:inline-block;
+    width: 56px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.sp4{
+    display:inline-block;
+    width: 100px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.sp5{
+    display:inline-block;
+    width: 210px;
+    height: 16px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.sp6{
+    display: inline-block;
+    width: 10px;
+    height: 100%;
+    margin-left: 7px;
+    color: #999;
+}
+.sp7{
+    width: 10px;
+    height: 100%;
+    margin-right: -5px;
+    color: #999;
+}
+/*导航*/
+/*目录*/
+.mulu{
+    float: left;
+    width: 760px;
+    height: 184px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.mulu-title{
+    text-align: left;
+    border-bottom: 1px solid black;
+    width:100% ;
+
+}
+.mulu-content{
+    float: left;
+    width: 760px;
+    height: 148px;
+}
+.mulu-content li{
+    height: 36px;
+    color: #4c4c4c;
+    vertical-align: middle;
+    width: 50%;
+    float: left;
+    border-bottom: 1px solid #f5f2eb;
+
+}
+.align1{
+    margin-top: 12px;
+    font-size: 14px;
+}
+.align2{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+.mulu-name{
+    display:block;
+    float: left;
+    height: 15px;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+.align3{
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-left: 3px;
+    margin-top: 2px;
+    background-image: url("../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png");
+    background-position: -179px -75px;
+}
+/*目录*/
+/*评论*/
+.comment{
+    float: left;
+    width: 760px;
+    height: 167px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #666;;
+}
+.comment-title{
+    float: left;
+
+
+}
+.book-score-content{
+    float: left;
+    width: 760px;
+    height: 141px;
+
+}
+.over-score{
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+.over-score-inner{
+    width: 208.78px;
+    height: 28.8px;
+    margin-top: 56.1px;
+}
+.inner-txt{
+    float: left;
+    display: block;
+    font-size: 14px;
+    width: 56px;
+    height: 19.2px;
+    margin-right: 10px;
+    margin-top: 6px;
+
+}
+.inner-star{
+    margin-top: 8px;
+}
+.inner-score{
+    float: left;
+    display: block;
+    width: 11.09px;
+    height: 28.8px;
+    color: #58bd5a;
+    margin-left: 20px;
+    font-family: 'Century Gothic';
+    font-size: 22px;
+}
+.site-score{
+    float: left;
+    width: 30%;
+    height: 80%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.site-score-1{
+    float: left;
+    width: 100%;
+    height: 20%;
+
+}
+.grade{
+    float: left;
+    width: 20px;
+    height: 13.6px;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.numbers{
+    float: left;
+    width: 100px;
+    height: 13.6px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #999;
+}
+.ic-star-on{
+    float: left;
+    width: 12px;
+    height: 10px;
+    background-image: url("../img/book-img/pkg_ydcommon_yui_z_a168977.png");
+    background-position: -7px 0px;
+
+}
+.ic-star-off{
+    float: left;
+    width: 12px;
+    height: 10px;
+    background-image: url("../img/book-img/pkg_ydcommon_yui_z_a168977.png");
+    background-position: -7px -27px;
+}
+.site-star{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.comment-content{
+    float: left;
+    width: 760px;
+    height: 1239.8px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.content-title{
+    float: left;
+    width: 760px;
+    height: 22px;
+
+}
+.content-title span{
+    font-size: 14px;
+}
+.sort{
+    float: right;
+    width: 132px;
+    height: 24px;
+}
+.new1{
+    display: block;
+    float: left;
+    width:65px;
+    height: 22px;
+    background: #eee;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}
+.hot{
+    display: block;
+    float: right;
+    width: 63px;
+    height: 22px;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    background: #fff;
+}
+.content-user{
+    float: left;
+    width: 760px;
+    height: 1117.8px;
+
+    padding-top: 10px;
+
+}
+.user1{
+    float: left;
+    width: 100%;
+    height: 83.8px;
+
+    padding: 10px 0 20px;
+    position: relative;
+}
+.user-img{
+    width: 45px;
+    height: 45px;
+    float: left;
+
+}
+.user-img img{
+    width: 100%;
+    height: 100%;
+
+}
+.user-info{
+    width: 696px;
+    height: 17.2px;
+    float: left;
+}
+.user-name{
+    width: 100px;
+    height: 17.2px;
+    float: left;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.user-style{
+    width: 100px;
+    height: 17.2px;
+    float: left;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.user-core{
+    width: 80px;
+    height: 17.2px;
+    float: left;
+    margin-top: 10px;
+}
+.user-num{
+    width: 20px;
+    height: 17.2px;
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.user-time{
+    width: 150px;
+    height: 17.2px;
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.user-from{
+    width: 72px;
+    height: 17.2px;
+    float: left;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.user-comment{
+    width: 696px;
+    height: 24.8px;
+    float: left;
+    margin-top: 10px;
+}
+.user-comment-content{
+    line-height: 1.8;
+    color: #333;
+    font-size: 14px;
+    text-indent: 20px;
+}
+.user-reply{
+    width: 696px;
+    height: 18.8px;
+    position: absolute;
+    right: 0;
+    bottom:20px;
+
+}
+.reply-txt{
+    float: right;
+    font-size: 12px;
+    color: #526652;
+}
+.reply-over{
+    float: right;
+    width:50px;
+    height: 18.8px;
+    margin-left: 10px;
+}
+.reply-logo{
+    float: left;
+    width: 13px;
+    height: 16px;
+    background-image: url(../img/book-img/pkg_ydcore_bookIndex_comm_z_cf30caf.png);
+    background-position: -181px -212px;
+}
+.reply-num{
+    float: left;
+    width: 13px;
+    height: 16px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.user-page{
+    float: left;
+    width: 500px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left:150px ;
+}
+.num1{
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    line-height: 28px;
+    border: 1px solid #d8d8d2;
+    background: #fff;
+    text-align: center;
+}
+.up{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 28px;
+    margin-right: 8px;
+    line-height: 28px;
+    border: 1px solid #d8d8d2;
+    background: #fff;
+    text-align: center;
+}
+.down{
+    display: block;
+    float: left;
+    width: 50px;
+    height: 28px;
+    margin-right: 8px;
+    line-height: 28px;
+    border: 1px solid #d8d8d2;
+    background: #fff;
+    text-align: center;
+}
+/*评论*/

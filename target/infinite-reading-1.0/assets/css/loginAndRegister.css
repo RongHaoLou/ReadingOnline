@@ -1,0 +1,220 @@
+body{
+    padding: 0;margin: 0;
+}
+/*--------------------------登录界面------------------------*/
+.background{
+    width: 100%;height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;left: 0;top: 0;
+}
+.background-login{
+    width: 356px;height: 409px;
+    margin: auto auto;margin-top: 100px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.background-login-exit{
+    width: 16px;height: 16px;
+    position: absolute;right: 16px;top:12px;z-index: 100;
+}
+.background-login-exit a{
+    width: 16px;height: 16px;display: block;
+    background: url("../img/login-img/pass_login_icons.jpg") no-repeat;
+    background-position: -56px -48px;
+}
+.background-login-exit a:hover{
+    background-position: -72px -48px;
+}
+.background-login-top{
+    width: 356px;height: 24px;background-color: #FFFFFF;
+    margin: 0 0 -1px;
+}
+.background-login-bottom{
+    width: 356px;height: 385px;
+}
+.form-login{
+    width: 300px;height: 285px;
+    padding: 0 28px;
+}
+.p-logo{
+    width:165px;height: 32px;color: black;padding-left: 135px;
+    font-size: 16px;margin: 1px 0 15px;line-height: 32px;
+    background: url("../img/login-img/loginLogo.jpg") no-repeat left;
+    background-size: 130px 32px;
+}
+.username {
+    width: 284px;height: 20px;
+    position: relative;padding: 10px 8px;
+    font-size: 14px;color: #666;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;margin-top: 15px;
+}
+.password{
+    width: 284px;height: 20px;position: relative;
+    padding: 10px 8px;font-size: 14px;color: #666;
+    border: 1px solid #ddd;
+}
+.autoLogin{
+    width: 13px;height: 13px;margin: 0;margin-top: 20px;
+}
+.login-lable{
+    width:50px;height: 13px;line-height: 13px;
+    color: #666;font-size: 12px;padding: 0;margin-top: -10px;
+}
+.login-button{
+    height: 40px;margin-top: 10px;
+    line-height: 40px;width: 300px;
+    font-size: 16px;font-weight: 800;
+    cursor: pointer;color: #fff;background: #3F89EC;
+    border: 0;border-radius: 3px;
+}
+.wangjimima{
+    width: 60px;height: 15px;margin:12px 0 0;
+    font-size: 12px;color: #2D64B3;float: left;
+}
+.messige-login{
+    width: 102px;height: 15px;margin:12px 0 0;
+    font-size: 12px;color: #2EB2FF;float: right;
+    text-decoration: none;text-align: right;
+}
+.background-login-bottom-bottom{
+    width: 300px;height: 60px;background-color: #F0F6FF;
+    margin: 40px 0 0;padding: 0 28px;position: relative;
+}
+.saoma-login{
+    width: 80px;height: 60px;position: absolute;
+    text-align: left;margin: 0;line-height: 60px;
+    font-size: 14px;cursor: pointer;color: #2e82ff;
+    text-decoration: none;
+}
+.fenge{
+    width: 10px;height: 60px;position: absolute;left: 100px;
+    color: #2e82ff;font-size: 8px;line-height: 58px;
+}
+.bottom-logos{
+    width: 90px;height: 60px;position: absolute;left: 110px;
+    display: flex;align-items: center;
+    background: url("../img/login-img/bottomLogo.jpg") no-repeat left;
+    background-size: 72px 23px;
+}
+/*.bottom-logos-one{*/
+/*    width: 20px;height: 18px;position: absolute;left:0;*/
+/*    margin-left: 16px;float: left;border: 1px solid red;*/
+/*    background:url("../login-img/loginv4.png") no-repeat;*/
+/*    background-position: -90px -70px;*/
+/*}*/
+/*.bottom-logos-two{*/
+/*    width: 20px;height: 18px;position: absolute;left: 36px;*/
+/*    margin-left: 5px;float: left;border: 1px solid green;*/
+/*    background:url("../login-img/loginv4.png") no-repeat;*/
+/*    background-position: -66px -70px;*/
+/*}*/
+/*.bottom-logos-three{*/
+/*    width: 20px;height: 18px;position: absolute;left: 61px;*/
+/*    margin-left: 5px;float: left;border: 1px solid black;*/
+/*    background:url("../login-img/loginv4.png") no-repeat;*/
+/*    background-position: -28px -115px;*/
+/*}*/
+.zhuce-now{
+    width: 80px;height: 60px;position: absolute;left: 250px;
+    text-align: right;margin: 0;line-height: 60px;
+    font-size: 14px;cursor: pointer;color: #2e82ff;
+    text-decoration: none;
+}
+/*--------------------------注册界面------------------------*/
+.register{
+    width: 100%;height: 100%; position: relative;
+}
+.register-content{
+    width: 1200px;height: 100%;margin: auto;
+    position: relative;
+}
+.register-content-top{
+    width: 1200px;height: 65px;
+}
+.register-content-top-logo{
+    width: 207px;height: 50px;margin-top: 15px;margin-left: 50px;
+    background: url("../img/login-img/loginLogo.jpg") no-repeat center;
+    background-size: 207px 50px;float: left;
+}
+.register-content-top span{
+    width: 5px;height: 65px;line-height: 75px;
+    font-size: 26px;color: #666;float: left;
+}
+.register-content-top-title{
+    width: 180px;height: 65px;font-size: 20px;color: #666666;
+    line-height: 80px;float: left;margin-left: 10px;
+}
+.register-content-top-right{
+    width: 189px;height: 65px;margin-right: 80px;
+    float: right;
+}
+.register-content-top-right span{
+    width: 96px;height: 65px;line-height: 65px;
+    font-size: 12px;color: #666666;
+}
+.login-btn{
+    font-weight: 700;color: #666;margin-top: 15px;margin-left: 5px;
+    height: 34px;width: 66px;border: 1px solid #F0F6FF;cursor: pointer;
+    background: url(../img/login-img/reg_icons.png) no-repeat 0 -48px;
+    border-radius: 5px;
+}
+.register-content-fenge{
+    width: 1200px;height: 20px;
+    background: url("../img/login-img/reg_hr.png") no-repeat center top;
+}
+.register-form{
+    width: 720px;height: 374px;margin-left: 80px;margin-top: 30px;
+}
+.common{
+    width: 720px;height: 42px;margin: 0 0 20px;
+}
+.register-lable{
+    width: 65px;height: 42px;color: #666666;margin-right: 10px;
+    font-size: 14px;float: left;text-align: right;font-weight: 700;
+    line-height: 42px;
+}
+.register-form-username {
+    width: 334px;height: 20px;
+    position: relative;padding: 10px 8px;
+    font-size: 14px;color: #666;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.register-form-password{
+    width: 334px;height: 20px;position: relative;
+    padding: 10px 8px;font-size: 14px;color: #666;
+    border: 1px solid #ddd;
+}
+#register-form-type{
+    width:150px;height: 40px;
+    padding: 10px 6px;font-size: 14px;color: #666;
+    border: 1px solid #ddd;
+}
+.register-form-code{
+    width: 200px;height: 20px;position: relative;
+    padding: 10px 8px;font-size: 14px;color: #666;
+    border: 1px solid #ddd;float: left;
+}
+#canvas{
+    cursor:pointer;
+    border: 1px solid #ddd;float: left;margin-left: 12px;
+}
+.overRead{
+    width: 645px;height: 16px;color: #666666;
+    margin: 0 0 20px 70px;font-size: 12px;
+}
+.overRead-check{
+    width: 13px;height: 13px;
+}
+.register-btn{
+    background-color: #3F89EC;width: 350px;height: 50px;
+    margin-left: 74px;font-size: 16px;
+    font-weight: 700;cursor: pointer;color: #fff;
+    border-radius: 3px;
+    border: 0;
+}
+.register-bottom{
+    width: 980px;height: 14px;margin: auto;margin-top: 80px;
+    font-size: 12px;color: #7A77CB;text-align: center;
+}
